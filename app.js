@@ -114,7 +114,7 @@ const getHomePage = () => {
     card.appendChild(image);
     card.appendChild(contentDiv);
 
-    card.addEventListener("click", () => renderExpandedStory(newsItem));
+    card.addEventListener("click", () => getExpandedStory(newsItem));
     grid.appendChild(card);
   });
   appContainer.appendChild(grid);

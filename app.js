@@ -216,7 +216,7 @@ const getCreateStoryPage = () => {
     appContainer.innerHTML = "";
     appContainer.appendChild(successMessage);
 
-    setTimeout(geterHomePage, 2000);
+    setTimeout(getHomePage, 2000);
   });
 
   appContainer.appendChild(form);
